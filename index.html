@@ -5,29 +5,37 @@
         <script type="text/javascript" src="javascript.js"></script>
         <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">-->
         <link rel="stylesheet" href="ika.css" type="text/css" />
+         <!-- Mobile viewport configuration. -->
+        <meta name="viewport" content = "width=device-width, user-scalable=no" />
+    <!-- Chat styles. -->
+        <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <!-- jQuery. -->
+    <script type="text/javascript" src="./jquery-1.6.1.min.js"></script>
 <title>testing where this goes</title>
     </head>
-    <body>
-        <!--<div class=row>-->
-        <video id="localVideo" class="col-sm-6"></video>
-        <div id="remoteVideos" class="col-sm-6"></div>
-        </div>
+<body>
+    <t>bideocat</t>
+    <!--<div class=row>-->
+    <video id="localVideo" class="col-sm-6"></video>
+    <div id="remoteVideos" class="col-sm-6"></div>
+</body>
+
 <!--/figure out pubnub/-->
-<!--<div class=row-2>-->
-<!--   <script src="http://cdn.pubnub.com/pubnub-3.14.5.min.js"></script>-->
-<!--    Enter Chat and press enter-->
-<!--<div><input id=input placeholder=you-chat-here /></div>-->
+ <div class="messageLog">
+        <ul>
+            <!-- This will be populated dynamically. -->
+        </ul>
+    </div>
 
-<!--Chat Output-->
-<!--<div id=box></div>-->
+    <form>
 
-<!--<script src=http://cdn.pubnub.com/pubnub.min.js></script>-->
+        <input type="text" name="message" size="" />
 
-<!--</div>-->
+        <button type="submit" disabled="disabled">Send</button>
 
-        
-        
-        
-        
-    </body>
-</html>
+    </form>
+    
+    
+    <! use this tp figure the rest of the messanger out>
+    //http://www.bennadel.com/blog/2213-sending-client-to-client-realtime-messages-with-the-pubnub-javascript-library.htm//
+    
