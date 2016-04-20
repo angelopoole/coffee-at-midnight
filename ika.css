@@ -6,7 +6,7 @@ right:0;
  float: right;
  border-style: solid;
  border-width:20px;
- border-color: pink;
+ border-color: #86592d;
   0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
@@ -18,25 +18,25 @@ right:0;
  width: 500px;
  float: left;
  border-style: solid;
- border-width:20px;
- border-color: #00ccff;
+ border-width:23px;
+ border-color: #86592d;
  }
 body { 
-    background:#404040  
+    background:#ffffcc;
 }
 /*https://turf-erika-angelopoole-2.c9users.io/index.html*/
   t {
    font-size:300%;
-   color: #ffff80
-   font-style:comicsan;
+   color: #86592d
+   font-family: "coffeeAtMidnight" ;
+ }  
   
- }
- -webkit-animation: AnimationName 6s ease infinite;
--moz-animation: AnimationName 6s ease infinite;
-animation: AnimationName 6s ease infinite;
+  
+ 
 
-{
-    0%{background-position:0% 50%}
+
+
+    {background-position: 0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
