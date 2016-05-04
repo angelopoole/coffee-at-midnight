@@ -1,60 +1,31 @@
 <!DOCTYPE html>
 <html>
     <head>
+        
         <script src="https://simplewebrtc.com/latest.js"></script> 
+        <!--jquery cdn -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
         <script type="text/javascript" src="javascript.js"></script>
-        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">-->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">-->
         <link rel="stylesheet" href="ika.css" type="text/css" />
-         <!-- Mobile viewport configuration. -->
+    <!-- Mobile viewport configuration. -->
         <meta name="viewport" content = "width=device-width, user-scalable=no" />
     <!-- Chat styles. -->
         <link rel="stylesheet" type="text/css" href="./styles.css" />
-    <!-- jQuery. -->
-    <script type="text/javascript" src="./jquery-1.6.1.min.js"></script>
+    
 <title>testing where this goes</title>
     </head>
 <body>
-    <t>bideocat</t>
+    <h1 id= "meow">bideocat</t>
     <!--<div class=row>-->
-    <video id="localVideo" class="col-sm-6"></video>
-    <div id="remoteVideos" class="col-sm-6"></div>
+    <div>
+        <video id="localVideo" class="col-sm-6"></video>
+        <div id="remoteVideos" class="col-sm-6"></div>
+    </div>
 </body>
 
 <!--/figure out pubnub/-->
- <div class="messageLog">
-        <ul>
-            <!-- This will be populated dynamically. -->
-        </ul>
-    </div>
 
-    <form>
-
-        <input type="text" name="message" size="" />
-
-        <button type="submit" disabled="disabled">Send</button>
-
-    </form>
-    
-    <!-- --------------------------------------------------- -->
-    <!-- --------------------------------------------------- -->
-    <!-- --------------------------------------------------- -->
-    <!-- --------------------------------------------------- -->
-
-     <!-- PubNub configuration details. -->
-    <div
-        id="pubnub"
-        pub-key="pub-7b6592f6-4ddb-4af6-b1b3-0e74cefe818d"
-        sub-key="sub-f4baaac5-87e0-11e0-b5b4-1fcb5dd0ecb4"
-        origin="pubsub.pubnub.com"
-        ssl="off">
-    </div>
-
-  <script type="text/javascript" src="http://cdn.pubnub.com/pubnub-3.1.min.js"></script>
-
-    <script type="text/javascript">
-    
-    
-    
     
     
     

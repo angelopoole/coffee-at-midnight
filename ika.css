@@ -1,8 +1,10 @@
 #remoteVideos video {
+top: 267px;;
 height: 300px;
 bottom: 900;
+position: relative;
 right:0;
- width: 500px;
+ width: 400px;
  float: right;
  border-style: solid;
  border-width:20px;
@@ -12,10 +14,12 @@ right:0;
     100%{background-position:0% 50%}
  }
  #localVideo {
+top: 267px;;     
 height:300px;
 bottom: 900;
+position: relative;
 right:0;
- width: 500px;
+ width: 400px;
  float: left;
  border-style: solid;
  border-width:23px;
@@ -25,14 +29,12 @@ body {
     background:#ffffcc;
 }
 /*https://turf-erika-angelopoole-2.c9users.io/index.html*/
-  t {
-   font-size:300%;
-   color: #86592d
+  
+ .meow{
+     font-size:500px;
+   color: #ffdd99;
    font-family: "coffeeAtMidnight" ;
- }  
-  
-  
- 
+ }
 
 
 
