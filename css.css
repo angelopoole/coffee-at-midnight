@@ -1,5 +1,19 @@
+
+/*@font-face{*/
+/*            font-family:CoffeeAtMidnight;*/
+/*        src:url('Coffee_At_Midnight_Demo.ttf');*/
+/*}*/
+
+@font-face {
+    font-family: DeliciousRoman;
+    src: url(http://www.font-face.com/fonts/delicious/Delicious-Roman.otf);
+    font-weight:400;
+}
+
+
+
 #remoteVideos video {
-top: 267px;;
+top: 50%;
 height: 300px;
 bottom: 900;
 position: relative;
@@ -8,13 +22,11 @@ right:0;
  float: right;
  border-style: solid;
  border-width:20px;
- border-color: #86592d;
-  0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+ border-color:#ffdd99;
+
  }
  #localVideo {
-top: 267px;;     
+top: 50%;     
 height:300px;
 bottom: 900;
 position: relative;
@@ -23,17 +35,19 @@ right:0;
  float: left;
  border-style: solid;
  border-width:23px;
- border-color: #86592d;
+ border-color:#ffdd99;
  }
 body { 
     background:#ffffcc;
 }
 /*https://turf-erika-angelopoole-2.c9users.io/index.html*/
   
- .meow{
-     font-size:500px;
-   color: #ffdd99;
-   font-family: "coffeeAtMidnight" ;
+ #meow{
+     font-size:500%;
+   color:#86592d;
+   font-family: DeliciousRoman, Helvetica, Arial, sans-serif;
+
+   text-align:center;
  }
 
 
