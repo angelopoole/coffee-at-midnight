@@ -5,7 +5,7 @@
 /*}*/
 
 @font-face {
-    font-family: DeliciousRoman;
+    font-family:Coffee_At_Midnight_Demon;
     src: url(http://www.font-face.com/fonts/delicious/Delicious-Roman.otf);
     font-weight:400;
 }
@@ -14,11 +14,11 @@
 
 #remoteVideos video {
 top: 50%;
-height: 300px;
+height: 250px;
 bottom: 900;
 position: relative;
 right:0;
- width: 400px;
+ width: 350px;
  float: right;
  border-style: solid;
  border-width:20px;
@@ -27,11 +27,11 @@ right:0;
  }
  #localVideo {
 top: 50%;     
-height:300px;
+height:250px;
 bottom: 900;
 position: relative;
 right:0;
- width: 400px;
+ width: 350px;
  float: left;
  border-style: solid;
  border-width:23px;
